@@ -17,8 +17,8 @@
 ## 📚 Table of Contents
 
 - [🧩 Introduction](#-introduction)
-- [❓ Why Use Log Rotation?](#-why-use-log-rotation)
 - [📁 What is Logrotate?](#-what-is-logrotate)
+- [❓ Why Use Log Rotation?](#-why-use-log-rotation)
 - [🔧 Prerequisites & Setup](#-prerequisites--setup)
   - [⚙️ Step 1: Install Logrotate](#️-step-1-install-logrotate-if-not-already-installed)
   - [📁 Step 2: Create Log File for Your App](#-step-2-create-log-file-for-your-app)
