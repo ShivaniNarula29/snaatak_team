@@ -1,4 +1,18 @@
 # Jinja Templating in Ansible
+---
+
+<p align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1613279162379/B_neFB1GX.png" alt="Logrotate Logo" width="400"/>
+</p>
+
+---
+
+## 👤 Author Information
+| Created | Version | Author | Comment | Reviewer |
+| --- | --- | --- | --- | --- |
+| 17-04-2025 | V1.1 | Shivani Narula | Internal Review | Siddharth Pawar |
+
+---
 
 ## 📚 Table of Contents
 - [Introduction](#-introduction)
@@ -121,3 +135,19 @@ server {
 ## 🧾 Conclusion
 Jinja templating is a vital part of Ansible automation, enabling dynamic content generation, better reusability, and more efficient configuration management. When used thoughtfully, it can significantly reduce manual errors and improve infrastructure consistency.
 
+---
+
+## 📇 Contacts
+
+| Name | Email Address |
+| --- | --- |
+| Shivani Narula | shivani.narula.snaatak@mygurukulam.co |
+
+---
+
+## 📘 References
+
+| Links                                                                                                                             | Descriptions                          |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_templating.html                                                  | Ansible Docs - Templating             |
+| https://blog.knoldus.com/deploying-custom-files-with-ansible-jinja2-templates/                                                    | Deploying Custom Files with Jinja2    |
