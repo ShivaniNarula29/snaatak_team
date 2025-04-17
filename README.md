@@ -10,7 +10,7 @@
 ## 👤 Author Information
 | Created | Version | Last Modified | Author | Comment | Reviewer |
 | --- | --- | --- | --- | --- | --- |
-| 17-04-2025 | V1.1 | 17-04-2025 | Shivani Narula | Internal Review | Siddharth Pawar |
+| 17-04-2025 | V1 | 17-04-2025 | Shivani Narula | Internal Review | Siddharth Pawar |
 
 ---
 
