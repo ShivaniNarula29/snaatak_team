@@ -1,7 +1,7 @@
 # 🐍 Gunicorn Intro Documentation
 
 <p align="center">
-  <img src="https://www.clipartmax.com/png/middle/79-793320_python-logo-png-13-buy-clip-art-gunicorn-python.png" alt="Logrotate Logo" width="150"/>
+  <img src="https://static.myflashinfo.com/image/4/c/0/4c065b16bed53a5b831ec1cad958afed.png" alt="Logrotate Logo" width="250"/>
 </p>
 
 ---
