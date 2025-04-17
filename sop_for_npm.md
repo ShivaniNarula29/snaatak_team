@@ -1,4 +1,4 @@
-# 🚀 Common Stack | Application | React JS | SOP's for npm (Step by step installation guide)
+# 🚀 Common Stack | Application | React JS | SOP's for npm
 
 <p align="center">
   <img src="https://www.viithiisys.com/images/uploads/reactjs.png" alt="Logrotate Logo" width="500"/>
