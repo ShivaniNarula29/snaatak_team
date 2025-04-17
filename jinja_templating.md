@@ -17,10 +17,10 @@
 ## 📚 Table of Contents
 - [Introduction](#-introduction)
 - [What is Jinja Templating?](#-what-is-jinja-templating)
-- [Why Jinja in Ansible?](#-why-jinja-in-ansible)
+- [Why Use Jinja in Ansible](#️why-use-jinja-in-ansible)
 - [Key Features](#-key-features)
 - [Advantages](#-advantages)
-- [Disadvantages](#-disadvantages)
+- [Disadvantages](#️-disadvantages)
 - [Use Case](#-use-case)
 - [Example](#-example)
 - [Conclusion](#-conclusion)
