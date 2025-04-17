@@ -6,6 +6,7 @@
 
 ---
 
+## 👤 Author Information
 | Created | Version | Author | Comment | Reviewer |
 | --- | --- | --- | --- | --- |
 | 14-04-2025 | V1 | Shivani Narula | Internal Review | Siddharth Pawar |
@@ -235,10 +236,12 @@ myapp1.log.2.gz    ← previous log, now compressed
 ---
 ## 📘 References
 
-| **Links** | **Descriptions** |
-| https://linux.die.net/man/8/logrotate | man logrotate  |
-| https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04/#getting-started-with-logrotate | Manage Log Files |
+📘 **References**
 
+| Links                                                                                                                             | Descriptions                          |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [https://linux.die.net/man/8/logrotate](https://linux.die.net/man/8/logrotate)                                                   | man logrotate                         |
+| [https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04/#getting-started-with-logrotate](https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04/#getting-started-with-logrotate) | Manage Log Files with logrotate       |
 
 
 siddharth reply 
