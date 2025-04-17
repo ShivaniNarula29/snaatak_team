@@ -1,6 +1,8 @@
-# 🚀 React JS | SOP's for npm
+# 🚀 Common Stack | Application | React JS | SOP's for npm (Step by step installation guide)
 
-![image](https://github.com/user-attachments/assets/f434b24c-9ec6-41f1-9e06-a5e7664a1183)
+<p align="center">
+  <img src="https://www.viithiisys.com/images/uploads/reactjs.png" alt="Logrotate Logo" width="500"/>
+</p>
 
 ---
 
@@ -8,15 +10,15 @@
 
 | Created     | Version   | Author           | Comment         | Reviewer         |
 |-------------|-----------|------------------|------------------|------------------|
-| 16-04-2025  | Version 1 | Shivani Narula   | Internal review  | Siddharth Pawar  |
-
+| 16-04-2025  | V1 | Shivani Narula   | Internal review  | Siddharth Pawar  |
+| 17-04-2025  | V1.1 | Shivani Narula  | Internal review | Siddharth Pawar  |
 ---
 
 ## 📚 Table of Contents
 
 - [🧩 Introduction](#-introduction)  
+- [📁 What is ReactJS?](#-what-is-reactjs)
 - [❓ Why Use npm to Set Up React?](#-why-use-npm-to-set-up-react)  
-- [📁 What is ReactJS?](#-what-is-reactjs)  
 - [🔧 Prerequisites & Setup](#-prerequisites--setup)  
 - [⚙️ Step 1: Check & Install Node.js and npm](#️-step-1-check--install-nodejs-and-npm)  
 - [📁 Step 2: Create React App](#-step-2-create-react-app)  
@@ -44,14 +46,15 @@ ReactJS is a JavaScript library used for building interactive user interfaces. I
 
 ---
 
-## ❓ Why Use npm to Set Up React?
+### ❓**Why Use npm to Set Up React?**
+npm is the default package manager for Node.js and is widely used in JavaScript development. It simplifies setting up, managing, and scaling React projects with ease.
 
-npm is the default package manager for Node.js and is widely used in JavaScript development. Using npm to install and manage React ensures:
-
-- Access to the latest React features  
-- Easy project setup using `create-react-app`  
-- Simplified dependency management  
-- Vast ecosystem of libraries and tools  
+> - **🆕 Latest Features**: Easily access the most up-to-date React versions and tools.  
+> - **⚡ Quick Start**: Use `create-react-app` for instant project scaffolding.  
+> - **📦 Dependency Management**: Automatically handles React libraries and updates.  
+> - **🌐 Ecosystem Support**: Tap into thousands of packages, tools, and plugins for React.  
+> - **🔄 Version Control**: Lock specific package versions for consistent builds.  
+> - **🛠️ Developer Tools**: Integrates well with linters, bundlers, and testing tools.    
 
 ---
 
@@ -196,16 +199,18 @@ This SOP helps you set up a ReactJS project using npm in a clear and consistent 
 
 ---
 
-## 🔗 References
+## 📇 Contacts
 
-- [ReactJS Official Docs](https://create-react-app.dev/docs/getting-started/)  
-- [Node.js Official Website](https://nodejs.org)  
-- [YouTube: How to Create React App using npx](https://www.youtube.com/watch?v=1HOuGMGV00g)  
+| Name           | Email Address                                 |
+|----------------|-----------------------------------------------|
+| Shivani Narula | shivani.narula.snaatak@mygurukulam.co         |
 
 ---
 
-## 📇 Contact
+📘 **References**
 
-| Name           | Email                                       |
-|----------------|---------------------------------------------|
-| Shivani Narula | shivani.narula.snaatak@mygurukulam.co       |
+| Links                                                                                      | Descriptions                        |
+|--------------------------------------------------------------------------------------------|-------------------------------------|
+| [https://create-react-app.dev/docs/getting-started/](https://create-react-app.dev/docs/getting-started/) | ReactJS Official Docs              |
+| [https://nodejs.org](https://nodejs.org)                                                   | Node.js Official Website            |
+| [https://www.youtube.com/watch?v=1HOuGMGV00g](https://www.youtube.com/watch?v=1HOuGMGV00g) | YouTube: How to Create React App   |
