@@ -17,7 +17,7 @@
 ## 📚 Table of Contents
 - [Introduction](#-introduction)
 - [What is Jinja Templating?](#-what-is-jinja-templating)
-- [Why Use Jinja in Ansible](#️why-use-jinja-in-ansible)
+- [Why Use Jinja in Ansible](#️-why-use-jinja-in-ansible)
 - [Key Features](#-key-features)
 - [Advantages](#-advantages)
 - [Disadvantages](#️-disadvantages)
