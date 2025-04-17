@@ -1,14 +1,16 @@
 # 🐍 Gunicorn Intro Documentation
 
+<p align="center">
+  <img src="https://www.clipartmax.com/png/middle/79-793320_python-logo-png-13-buy-clip-art-gunicorn-python.png" alt="Logrotate Logo" width="150"/>
+</p>
+
+---
+
 ## 👤 Author Information
 
 | Created     | Version | Author          | Comment        | Reviewer        |
 |-------------|---------|------------------|----------------|------------------|
 | 15-04-2025  | Version 1 | Shivani Narula  | Internal review | Siddharth Pawar  |
-
----
-
-![image](https://github.com/user-attachments/assets/890340a1-ed5e-4add-bdbb-3c49bd099890)
 
 ---
 
@@ -18,8 +20,8 @@
 - [🕰️ History](#-history)
 - [🔧 Prerequisites](#-prerequisites)
 - [❓ What is Gunicorn?](#-what-is-gunicorn)
-- [🔍 Architecture View](#-architecture-view)
 - [🤔 Why Gunicorn?](#-why-gunicorn)
+- [🔍 Architecture View](#-architecture-view)
 - [⚙️ Key Features](#-key-features)
 - [🛠️ Use Cases](#-use-cases)
 - [🧩 Real-World Scenario](#-real-world-scenario)
@@ -62,6 +64,18 @@ Gunicorn is a WSGI HTTP server for Python. It works by serving your web applicat
 
 ---
 
+### ❓**Why Use Gunicorn?**
+Gunicorn is a production-grade WSGI HTTP server for running Python web applications. It boosts performance, scalability, and reliability while being simple to set up.
+
+> - **🚀 Performance**: Handles many requests simultaneously with multiple worker processes.  
+> - **🔗 Compatibility**: Works with most Python frameworks (Flask, Django, FastAPI) and web servers (Nginx, Apache).  
+> - **⚙️ Ease of Use**: Simple to install, configure, and run from the command line.  
+> - **🔁 Reliability**: Trusted in production environments across the industry.  
+> - **🔒 Security**: Can be secured behind reverse proxies for HTTPS, rate limiting, etc.  
+> - **🔧 Flexibility**: Supports various worker types (sync, async, threaded) and custom configurations.  
+
+---
+
 ## 🔍 Architecture View
 
 ![Gunicorn Architecture](https://github.com/user-attachments/assets/77554584-461e-440a-8fc3-2c678baacd9b)
@@ -71,17 +85,6 @@ Gunicorn is a WSGI HTTP server for Python. It works by serving your web applicat
 - Your **Python app** doesn’t talk directly to the internet.
 - **Gunicorn** runs your app and handles incoming requests via workers.
 - **Nginx** acts as a gateway, forwards requests to Gunicorn, and serves responses to users.
-
----
-
-## 🤔 Why Gunicorn?
-
-- 🚀 **Performance**: Handles many requests simultaneously with multiple worker processes.
-- 🔗 **Compatibility**: Works with most Python frameworks (Flask, Django, FastAPI) and web servers (Nginx, Apache).
-- ⚙️ **Ease of Use**: Simple to install, configure, and run from the command line.
-- 🔁 **Reliability**: Trusted in production environments across the industry.
-- 🔒 **Security**: Can be secured behind reverse proxies for HTTPS, rate limiting, etc.
-- 🔧 **Flexibility**: Supports various worker types (sync, async, threaded) and custom configurations.
 
 ---
 
@@ -135,19 +138,21 @@ Gunicorn is a **crucial component** of production-grade Python deployments:
 
 ---
 
-## 🔗 References
+## 📇 Contacts
 
-- [What is Gunicorn - Blog](https://medium.com/@serdarilarslan/what-is-gunicorn-5e674fff131b)
-- [Gunicorn Docs](https://docs.gunicorn.org/en/stable/)
-- [Gunicorn GitHub](https://github.com/benoitc/gunicorn)
+| Name | Email Address |
+| --- | --- |
+| Shivani Narula | shivani.narula.snaatak@mygurukulam.co |
 
 ---
 
-## 📇 Contact
+📘 **References**
 
-| Name            | Email                                       |
-|-----------------|---------------------------------------------|
-| Shivani Narula  | shivani.narula.snaatak@mygurukulam.co       |
+| Links                                                                                      | Descriptions         |
+|--------------------------------------------------------------------------------------------|----------------------|
+| [https://medium.com/@serdarilarslan/what-is-gunicorn-5e674fff131b](https://medium.com/@serdarilarslan/what-is-gunicorn-5e674fff131b) | What is Gunicorn - Blog |
+| [https://docs.gunicorn.org/en/stable/](https://docs.gunicorn.org/en/stable/)              | Gunicorn Docs        |
+| [https://github.com/benoitc/gunicorn](https://github.com/benoitc/gunicorn)                | Gunicorn GitHub      |
 
 
 Keep it in tabular form
