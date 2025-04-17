@@ -81,22 +81,33 @@ Jinja templating empowers Ansible to be dynamic, reusable, and adaptable to dive
 ---
 
 ## ✅ Advantages
-- Enhances modularity and reusability
-- Makes playbooks environment agnostic
-- Supports logic-based rendering (e.g., conditionally add config blocks)
-- Reduces manual edits across environments or hosts
+
+| Advantage                          | Description                                                              |
+|-------------------------------------|--------------------------------------------------------------------------|
+| Enhances modularity and reusability | Encourages reuse of templates and reduces duplication in configuration.  |
+| Makes playbooks environment agnostic | Helps manage multiple environments (dev, staging, prod) with one template. |
+| Supports logic-based rendering     | Allows adding conditions or loops to include/exclude configuration blocks dynamically. |
+| Reduces manual edits               | Automatically generates configurations, reducing manual updates.        |
 
 ---
 
 ## ⚠️ Disadvantages
-- **Debugging complexity**: Errors in templates may be hard to trace
-- **Learning curve**: Non-developers may find logic-heavy templates hard to follow
-- **Overuse**: Can lead to difficult-to-maintain templates
+
+| Disadvantage                       | Description                                                              |
+|-------------------------------------|--------------------------------------------------------------------------|
+| Debugging complexity               | Errors in templates may be difficult to trace and debug.                 |
+| Learning curve                     | Non-developers may find it hard to understand logic-heavy templates.     |
+| Overuse                             | Excessive use of complex logic can lead to hard-to-maintain templates.   |
 
 ---
 
 ## 💡 Use Case
-**Generating different `nginx.conf` files** for dev, staging, and prod environments dynamically using the same template but different variables.
+
+| Use Case                     | Description                                                                                           |
+|-----------------------------|-------------------------------------------------------------------------------------------------------|
+| 🔧 Dynamic Configuration Files | Generate files like `nginx.conf`, `prometheus.yml`, or `logrotate.conf` based on host/group variables. |
+| 🌍 Multi-Environment Support  | Use one template to deploy across dev, staging, and prod with dynamic values.                        |
+| 🔁 Loop-Based Config Generation | Populate repeated config blocks (e.g., users, ports, services) using loops.                          |
 
 ---
 
