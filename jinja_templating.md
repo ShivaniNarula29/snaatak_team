@@ -17,6 +17,7 @@
 ## 📚 Table of Contents
 - [Introduction](#-introduction)
 - [What is Jinja Templating?](#-what-is-jinja-templating)
+- [Jinja2 Template Architecture](#️-jinja2-template-architecture)
 - [Why Use Jinja in Ansible](#why-use-jinja-in-ansible)
 - [Key Features](#-key-features)
 - [Advantages](#-advantages)
@@ -39,6 +40,20 @@ In Ansible, **Jinja templating** is used to dynamically generate configuration f
 - **Filters**: `{{ variable | filter }}`
 - **Conditionals**: `{% if condition %} ... {% endif %}`
 - **Loops**: `{% for item in list %} ... {% endfor %}`
+
+---
+
+## 🏗️ Jinja2 Template Architecture
+
+Jinja2 uses specific syntax tags to define how data and logic are embedded into templates. These tags are interpreted and replaced by actual content during execution.
+
+| Syntax   | Purpose                                            | Example                                 |
+|----------|----------------------------------------------------|-----------------------------------------|
+| `{{ }}`  | Output the result of a variable or expression      | `{{ server_name }}` → `example.com`     |
+| `{% %}`  | Logic statements such as loops and conditionals    | `{% if enable_ssl %} ... {% endif %}`   |
+| `{# #}`  | Comments that are ignored during rendering         | `{# This is a comment #}`               |
+
+These tags allow mixing static configuration content with dynamic data, making Jinja2 extremely flexible for automation.
 
 ---
 
