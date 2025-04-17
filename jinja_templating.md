@@ -1,5 +1,16 @@
 # Jinja Templating in Ansible
 
+## 📚 Table of Contents
+- [Introduction](#-introduction)
+- [What is Jinja Templating?](#-what-is-jinja-templating)
+- [Why Jinja in Ansible?](#-why-jinja-in-ansible)
+- [Key Features](#-key-features)
+- [Advantages](#-advantages)
+- [Disadvantages](#-disadvantages)
+- [Use Case](#-use-case)
+- [Example](#-example)
+- [Conclusion](#-conclusion)
+
 ## 📘 Introduction
 In Ansible, **Jinja templating** is used to dynamically generate configuration files, scripts, and commands by embedding variables and logic directly into text files. This is a powerful feature that enhances the flexibility and reusability of automation playbooks and roles.
 
@@ -17,22 +28,26 @@ In Ansible, **Jinja templating** is used to dynamically generate configuration f
 
 ---
 
-## 🚀 Why Jinja in Ansible?
-Ansible uses Jinja templating to:
+### ❓**Why Use Jinja in Ansible?**
+Jinja templating empowers Ansible to be dynamic, reusable, and adaptable to diverse environments.
 
-- Dynamically configure system files (like `nginx.conf`, `prometheus.yml`, etc.)
-- Handle host-specific data using variables
-- Reuse templates across environments
-- Minimize repetition and hardcoding in playbooks
+> - **⚙️ Dynamic Configurations**: Templates like `nginx.conf`, `prometheus.yml`, and more can be generated with context-aware values.
+> - **📦 Host-Specific Variables**: Supports inventory-based customization.
+> - **🔁 Reusability**: A single template can serve multiple environments.
+> - **🧹 Less Redundancy**: Minimizes hardcoding and duplication in playbooks.
+> - **💡 Smarter Logic**: Add conditionals and loops directly in templates.
 
 ---
 
 ## 🔑 Key Features
-- **Simple Syntax**: Easy to learn and read
-- **Pythonic Expressions**: Offers a subset of Python-like logic
-- **Filters & Tests**: Modify output or validate data
-- **Inheritance & Includes**: Supports modular templates
-- **Safe Rendering**: Prevents execution of unsafe code
+
+| Feature               | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Simple Syntax         | Easy to learn and read                                                      |
+| Pythonic Expressions  | Offers a subset of Python-like logic                                        |
+| Filters & Tests       | Modify output or validate data                                              |
+| Inheritance & Includes| Supports modular templates and shared structures                            |
+| Safe Rendering        | Prevents execution of unsafe code                                           |
 
 ---
 
