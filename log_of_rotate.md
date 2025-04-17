@@ -1,4 +1,5 @@
 ## 🛠️ Configuring and Managing Log Rotation using Logrotate on Ubuntu
+---
 
 <p align="center">
   <img src="https://www.pc-freak.net/images/logrotate-linux-logo.png" alt="Logrotate Logo" width="150"/>
