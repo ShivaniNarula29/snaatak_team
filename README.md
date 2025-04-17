@@ -191,10 +191,6 @@ server {
 
 ---
 
-By following these steps, you can use Jinja2 templating with Ansible to create dynamic, environment-specific configuration files. This approach is especially useful for deploying configurations across multiple servers or environments with minimal manual changes.
-
----
-
 ## 🧾 Conclusion
 Jinja templating is a vital part of Ansible automation, enabling dynamic content generation, better reusability, and more efficient configuration management. When used thoughtfully, it can significantly reduce manual errors and improve infrastructure consistency.
 
