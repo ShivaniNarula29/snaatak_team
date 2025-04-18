@@ -348,12 +348,6 @@ Suppose you're building a web app using Spring Boot:
 
 ---
 
-## Licensing
-
-The `pom.xml` file itself is not licensed, but the project and its dependencies must comply with their respective licenses. Maven and its core plugins are licensed under the **Apache License 2.0**.
-
----
-
 ## 🧠 Conclusion
 
 Understanding and managing pom.xml is essential for any Maven-based Java project. This documentation helps developers and DevOps engineers structure their project dependencies, build lifecycle, and plugin configurations effectively while promoting best practices for versioning and maintainability.
