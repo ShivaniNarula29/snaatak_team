@@ -1,6 +1,4 @@
-# Jinja Templating in Ansible
----
-
+# ![Ansible](https://cdn.iconscout.com/icon/free/png-256/free-ansible-3628885-3030001.png?w=20&h=20) Jinja Templating in Ansible
 <p align="center">
   <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1613279162379/B_neFB1GX.png" alt="Logrotate Logo" width="400"/>
 </p>
