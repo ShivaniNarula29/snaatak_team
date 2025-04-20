@@ -98,8 +98,9 @@ sudo apt install -y nodejs
 
 ---
 
-## 📁 Step 3: Create React App
+## Step 3: Testing setup
 
+### Create React App
 Use `npx` (comes with npm) to create a new React project:
 ```bash
 npx create-react-app my-app
@@ -109,16 +110,14 @@ npx create-react-app my-app
 
 ---
 
-## Step 4: Testing Setup
-
-Go into the project directory and start the app:
+### Go into the project directory and start the app:
 ```bash
 cd my-app
 npm start
 ```
 ---
 
-Open your browser and go to:
+### Open your browser and go to:
 ```
 http://<your-server-ip>:3000
 ```
@@ -126,7 +125,7 @@ http://<your-server-ip>:3000
 
 ---
 
-Check that the server is listening:
+### Check that the server is listening:
 ```bash
 sudo lsof -i :3000
 ```
