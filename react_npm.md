@@ -24,7 +24,7 @@
 - [Best Practices](#best-practices)  
 - [Conclusion](#conclusion)  
 - [Contacts](#contacts)  
-- [Reference Table](#references-table)  
+- [Reference Table](#reference-table)  
 
 ---
 
@@ -170,7 +170,7 @@ This SOP helps you set up a ReactJS project using npm in a clear and consistent 
 
 ---
 
-## References
+## Reference Table
 
 | Links                                                                                      | Descriptions                        |
 |--------------------------------------------------------------------------------------------|-------------------------------------|
