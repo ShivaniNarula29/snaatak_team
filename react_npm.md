@@ -24,7 +24,7 @@
 - [Best Practices](#best-practices)  
 - [Conclusion](#conclusion)  
 - [Contacts](#contacts)  
-- [References](#references)  
+- [Reference Table](#references-table)  
 
 ---
 
