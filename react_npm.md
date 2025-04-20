@@ -105,8 +105,8 @@ Use `npx` (comes with npm) to create a new React project:
 ```bash
 npx create-react-app my-app
 ```
->🔹 `my-app` is your project folder name. You can choose any name.
->This command installs React, React-DOM, and required dependencies automatically.
+> my-app is your project folder name. You can choose any name.
+> This command installs React, React-DOM, and required dependencies automatically.
 
 ---
 
