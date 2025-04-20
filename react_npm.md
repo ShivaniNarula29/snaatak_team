@@ -14,17 +14,17 @@
 ---
 
 ## Table of Contents
-- [Introduction](#-introduction)  
+- [Introduction](#introduction)  
 - [Step-by-step-installation-guide](#step-by-step-installation-guide)
-    - [Step 1: Check & Install Node.js and npm](#️-step-1-check--install-nodejs-and-npm)  
-    - [Step 2: Create React App](#-step-2-create-react-app)  
-    - [Testing Setup](#-testing-setup)  
-    - [Step 3: Test the Setup](#-step-3-test-the-setup)  
-- [Troubleshooting Tips](#️-troubleshooting-tips)  
-- [Best Practices](#-best-practices)  
-- [Conclusion](#-conclusion)  
-- [Contacts](#-contacts)
-- [Reference Table](#-references-table)  
+  - [Step 1: Check & Install curl](#step-1-check--install-curl)  
+  - [Step 2: Check & Install Node.js and npm](#step-2-check--install-nodejs-and-npm)  
+  - [Step 3: Testing Setup](#step-3-testing-setup)  
+    - [Create React App](#create-react-app)  
+- [Troubleshooting Tips](#troubleshooting-tips)  
+- [Best Practices](#best-practices)  
+- [Conclusion](#conclusion)  
+- [Contacts](#contacts)  
+- [References](#references)  
 
 ---
 
