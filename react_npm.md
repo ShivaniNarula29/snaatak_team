@@ -35,6 +35,21 @@ This document provides a detailed Standard Operating Procedure (SOP) for setting
 ReactJS, maintained by Meta (Facebook), is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 
 ---
+
+### 🔁 Common npm Commands
+
+| Command                     | Purpose                                      |
+|-----------------------------|----------------------------------------------|
+| `npm install <package>`     | Install a package locally                    |
+| `npm install -g <package>`  | Install a package globally                   |
+| `npm uninstall <package>`   | Uninstall a local package                    |
+| `npm update`                | Update all local packages                    |
+| `npm list`                  | View installed packages                      |
+| `npm list -g --depth=0`     | View globally installed packages             |
+| `npm audit`                 | Run security check on installed packages     |
+| `npm cache clean --force`   | Clear the npm cache                          |
+
+---
 ## Step-by-Step Installation Guide
 
 ##  Step 1: Check & Install curl
@@ -129,7 +144,7 @@ sudo lsof -i :3000
 
 ---
 
-## 📦 Best Practices
+## Best Practices
 
 ✅ Do not commit node_modules/ to Git.
 It's large and unnecessary—use .gitignore to skip it.
@@ -142,13 +157,13 @@ Run npm update regularly to get the latest and secure versions.
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 This SOP helps you set up a ReactJS project using npm in a clear and consistent way. By checking your system, verifying tools like curl, node, and npm, and following step-by-step commands, you can quickly get started with React. Using npm makes it easier to manage packages and build scalable React apps. Follow these steps across all projects to keep your workflow simple, fast, and reliable.
 
 ---
 
-## 📇 Contacts
+## Contacts
 
 | Name           | Email Address                                 |
 |----------------|-----------------------------------------------|
@@ -156,7 +171,7 @@ This SOP helps you set up a ReactJS project using npm in a clear and consistent 
 
 ---
 
-## 📘 References
+## References
 
 | Links                                                                                      | Descriptions                        |
 |--------------------------------------------------------------------------------------------|-------------------------------------|
