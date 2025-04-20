@@ -28,7 +28,7 @@
 
 ---
 
-## 🧩 Introduction
+## Introduction
 
 This document provides a detailed Standard Operating Procedure (SOP) for setting up a ReactJS application using npm (Node Package Manager). It is part of the common application stack used in modern frontend development.
 
